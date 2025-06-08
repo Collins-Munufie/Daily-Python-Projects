@@ -1,0 +1,2 @@
+1. Building a simple GUI to do APP using framwork like tkinter.
+2. My journey in Python is tackled in a task based format.
