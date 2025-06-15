@@ -29,7 +29,7 @@ print ("4. Division")
 print ("5. Modulus")
 print ("6. Power")
 
-choice = input("Enter your choice (1/2/3/4):")
+choice = input("Which operation you wanna perform?(1, 2, 3, 4, 5, or 6): ")
 
 
 try:
@@ -45,6 +45,11 @@ try:
         print (f"Result:{num1} * {num2} = {multiply(num1, num2)}")
     elif choice == '4':
         print (f"Result:{num1} / {num2} = {divide(num1, num2)}")
+    elif choice == '5':
+        print (f"Result:{num1} % {num2} = {modulus(num1, num2)}")
+    elif choice == '6':
+        print (f"Result:{num1} ** {num2} = {power(num1, num2)}")
+        
 
     else: 
       ("Invalid input Please Enter a valid choice from 1, 2, 3 or 4")
